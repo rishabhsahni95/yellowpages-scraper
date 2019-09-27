@@ -5,7 +5,7 @@ from scrapy.crawler import CrawlerProcess
 class YellowSpiderSpider(scrapy.Spider):
     name = 'yellow_spider'
     page_number = 2
-    api='http://api.scraperapi.com/?api_key=822da7f5e247570657b28227f6d782f1&url='#a string containing http request to scraperapi.com to bypass restrictions like IP banning and Bot detection
+    api=#a string containing http request to scraperapi.com to bypass restrictions like IP banning and Bot detection
     link ='https://www.yellowpages.com/los-angeles-ca/restaurants'
     start_urls = [api+link]
 
